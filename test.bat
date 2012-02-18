@@ -1,0 +1,1 @@
+@ECHO OFF & (IF EXIST "%~dp0test.swf" (DEL "%~dp0test.swf")) & "C:\Users\subodh\Documents\stanford\RA\flex\bin\mxmlc.exe" -benchmark=true -creator="Trevor McCauley" -file-specs "%~dp0test.mxml" & (IF EXIST "%~dp0test.swf" (CALL "%~dp0test.swf") ELSE (PAUSE)) 

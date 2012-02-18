@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- wrapper/WrapperCaller.mxml -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+  <mx:Script>
+     import flash.external.*;
+  
+     public function callWrapper():void {
+        var s:String;
+        if (ExternalInterface.available) {
+           var wrapperFunction:String = "changeDocumentTitle";
+           s = ExternalInterface.call("alertText");
+        } else {
+           s = "Wrapper not available";
+        }
+        trace(s); 
+     }
+  </mx:Script>
+  
+  <mx:Form>
+     <mx:FormItem label="New Title:">
+        <mx:TextInput id="ti1"/>
+     </mx:FormItem>
+  </mx:Form>
+  
+  <mx:Button label="Change Document Title" click="callWrapper()"/>
+</mx:Application>
