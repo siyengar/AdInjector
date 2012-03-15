@@ -5,10 +5,10 @@ package {
 	import flash.events.MouseEvent; 
 	
 	[SWF(width='250',height='250')]
-	public class HelloWorld extends MovieClip {
+	public class Pixel extends MovieClip {
 		 
 		
-		public function HelloWorld() {
+		public function Pixel() {
 			
 			var myJavaScript:XML = 
 			<script>

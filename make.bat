@@ -19,7 +19,7 @@ REM or by running:
 REM mxmlc.exe -help list advanced details
 REM in the command prompt (properly referencing mxmlc.exe)
 
-SET opts=-benchmark=true -creator="Trevor McCauley"
+SET opts=-benchmark=true -creator="Subodh Iyengar"
 
 REM -----------------------------------------------------------------------
 
