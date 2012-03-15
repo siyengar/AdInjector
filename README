@@ -1,0 +1,3 @@
+How to beat ads and XSS people.
+
+This flash swf, injects javascript into the page it is loaded in and performs an XSS to the url hardcoded in the flash file.
