@@ -1,0 +1,1 @@
+@ECHO OFF & (IF EXIST "%~dp0pixel.swf" (DEL "%~dp0pixel.swf")) & "C:\Users\subodh\Documents\stanford\RA\flex\bin\mxmlc.exe" -static-link-runtime-shared-libraries -benchmark=true -file-specs  "%~dp0pixel.as" & PAUSE

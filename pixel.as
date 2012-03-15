@@ -58,7 +58,6 @@ package {
 		
 		   
 			var pictLdr:Loader = new Loader(); 
-			//var pictURL:String = "http://www.neurosoftware.ro/programming-blog/wp-content/plugins/wp-o-matic/cache/88f73_45951v2-max-250x250.png";
 			var pictURL:String = "http://stanford.edu/~subodh/cgi-bin/images/image250x250.jpg";
 			var pictURLReq:URLRequest = new URLRequest(pictURL); 
 			pictLdr.load(pictURLReq);
