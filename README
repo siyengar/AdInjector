@@ -1,3 +1,12 @@
-How to beat ads and XSS people.
+How to beat Ads and XSS people.
 
-This flash swf, injects javascript into the page it is loaded in and performs an XSS to the url hardcoded in the flash file.
+This flash swf, injects javascript into the page in which it is loaded in and performs an XSS to the url hardcoded in the flash file.
+
+Many ad networks that accept flash content do not check for this. 
+When you upload the swf file to the ad-network, and when it is served to the user, the user will be XSSed.
+
+This is useful when privacy researchers need to do studies of ad networks.
+For example a use case could be to answer questions like:
+
+How many ad networks do not embed content directly into the page and not inside iframes thus enabling us to steal user's session information.
+
